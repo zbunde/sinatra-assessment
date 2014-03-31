@@ -1,5 +1,7 @@
 # Sinatra Assessment
 
+## Stories
+
 * User sees a page that says "Welcome"
 * Users clicks a link named "Add a Product"
 * User enters some text for the product name and clicks a button called "Create Product"
