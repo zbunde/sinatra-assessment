@@ -8,4 +8,7 @@ class App < Sinatra::Application
   get '/add_product' do
     erb :add_product
   end
+  post '/' do
+    redirect '/'
+  end
 end
