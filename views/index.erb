@@ -4,7 +4,13 @@
 
 
 <a href="/add_product">Add a Product</a>
+<br>
+<ul>
+<% products.each do |name| %>
+<li><%= name %> </li>
+  <% end %>
 
+</ul>
 </body>
 
 </html>

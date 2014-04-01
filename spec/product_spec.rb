@@ -11,6 +11,6 @@ feature 'Adding a product' do
     expect(page).to have_content "Add a Product"
     fill_in "product", with: "food"
     click_on "Create Product"
-    expect(page).to have_content "Welcome"
+    expect(page).to have_content "food"
   end
 end
